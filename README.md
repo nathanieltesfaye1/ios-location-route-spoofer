@@ -12,7 +12,7 @@ It supports:
 - Custom drive speeds between stops
 - Custom rate of location updates
 - Pause/resume playback (only verified on Mac so far)
-- Mac tested, need to check Windows (should work on Windows)
+- Mac tested, need to check Windows (should work on Windows, but setup may vary slightly)
 
 ## How it works
 The flow works as follows:
