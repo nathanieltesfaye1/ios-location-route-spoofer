@@ -66,7 +66,7 @@ Then, run: `python3 generate_gpx.py <filename>.json`
 The script will read the JSON file, and output: `outputs/<filename>.gpx`
 
 ### Spoof Location!
-To spoof the location, playback the recently created GPX. In the first terminal window, execute:
+To spoof the location, playback the recently created GPX. In the __first__ terminal window, execute:
 ```
 pymobiledevice3 developer dvt simulate-location play outputs/<filename>.gpx
 ```
