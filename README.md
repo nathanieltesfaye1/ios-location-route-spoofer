@@ -83,6 +83,8 @@ These are both terminal commands.
 ### Clear Location
 When done, clear the location from the iPhone with `Ctril + C`.
 
+Also, on the second terminal window, kill the tunnel with `Ctrl + C`.
+
 ## Route Types
 3 route types are supported:
 - Lines
