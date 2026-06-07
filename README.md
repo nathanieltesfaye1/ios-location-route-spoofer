@@ -1,6 +1,6 @@
 # iOS Location Route Spoofer
 
-This project allows for hands-free iPhone location spoofing on a predefined route. It's mainly intended for QA where an iOS device needs to appear as if it's moving between stops (e.g. driver app) without having to manually change location each time (which is a limitation of GeoPort, our current spoofing solution).
+This project allows for hands-free iPhone location spoofing on a predefined route. It's mainly intended for QA where an iOS device needs to appear as if it's moving between stops (e.g. driver app) without having to manually change location each time (which is a limitation of [GeoPort](https://github.com/davesc63/GeoPort), our current spoofing solution).
 
 The tool takes a route JSON file, converts it into a GPX file and then uses `pymobiledevice3` to play that GPX route on a usb-connected iPhone.
 - [`pymobiledevice3`](https://github.com/doronz88/pymobiledevice3)
