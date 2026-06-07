@@ -1,0 +1,29 @@
+{
+    "name": "Timetabled Loop Route 1",
+    "locationUpdateIntervalSeconds": 1,
+    "routeType": "timetabledLoop",
+    "totalLoops": 3,
+    "stops": [
+      {
+        "name": "Stop A",
+        "lat": 51.53899446,
+        "lon": -0.14256239,
+        "pauseSeconds": 30,
+        "driveSecondsToNextStop": 15
+      },
+      {
+        "name": "Stop B",
+        "lat": 51.5163909,
+        "lon": -0.14880174,
+        "pauseSeconds": 30,
+        "driveSecondsToNextStop": 15
+      },
+      {
+        "name": "Stop C",
+        "lat": 51.52314215,
+        "lon": -0.10901899,
+        "pauseSeconds": 30,
+        "driveSecondsToNextStop": 15
+      }
+    ]
+  }

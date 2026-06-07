@@ -1,1 +1,3 @@
 .venv
+json_routes/examples/*.json
+*.gpx
