@@ -1,0 +1,29 @@
+{ 
+  "name": "Untimetabled Loop Route 1",
+  "locationUpdateIntervalSeconds": 1,
+  "routeType": "untimetabledLoop",
+  "totalRunSeconds": 150,
+  "stops": [
+    {
+      "name": "Stop A",
+      "lat": 51.505,
+      "lon": -0.2228,
+      "pauseSeconds": 5,
+      "driveSecondsToNextStop": 10
+    },
+    {
+      "name": "Stop B",
+      "lat": 51.508,
+      "lon": -0.2762,
+      "pauseSeconds": 5,
+      "driveSecondsToNextStop": 10
+    },
+    {
+      "name": "Stop C",
+      "lat": 51.513,
+      "lon": -0.3043,
+      "pauseSeconds": 5,
+      "driveSecondsToNextStop": 10
+    }
+  ]
+}
