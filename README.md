@@ -34,7 +34,7 @@ Mac's been tested, Windows tbc.
 
 ## Instructions
 ### Setup Environment
-Create and activate a Python virtual environment.
+Create and activate a Python virtual environment. In a terminal window, execute:
 
 ```
 python3 -m venv .venv
@@ -50,7 +50,7 @@ python3 -m pip install -U pymobiledevice3
 Connect iPhone to the laptop with a USB cable. Tap "trust this computer" on the iPhone if prompted. Enable developer mode too if not already enabled (you may need to restart the phone after doing this).
 
 ### Start the tunnel
-In a new terminal window, activate the venv and start the tunnel:
+In a second terminal window, activate the venv and start the tunnel:
 ```
 source .venv/bin/activate
 sudo .venv/bin/python -m pymobiledevice3 remote tunneld
@@ -66,7 +66,7 @@ Then, run: `python3 generate_gpx.py <filename>.json`
 The script will read the JSON file, and output: `outputs/<filename>.gpx`
 
 ### Spoof Location!
-To spoof the location, playback the recently created GPX. This is done by:
+To spoof the location, playback the recently created GPX. In the first terminal window, execute:
 ```
 pymobiledevice3 developer dvt simulate-location play outputs/<filename>.gpx
 ```
