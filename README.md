@@ -83,6 +83,11 @@ These are both terminal commands.
 ### Clear Location
 When done, clear the location from the iPhone with `Ctril + C`.
 
+If location still hasn't cleared, run this in the first terminal:
+```
+pymobiledevice3 developer dvt simulate-location clear
+```
+
 Also, on the second terminal window, kill the tunnel with `Ctrl + C`.
 
 ## Route Types
