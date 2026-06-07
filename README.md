@@ -3,6 +3,7 @@
 This project allows for hands-free iPhone location spoofing on a predefined route. It's mainly intended for QA where an iOS device needs to appear as if it's moving between stops (e.g. driver app) without manually changing location each time.
 
 The tool takes a route JSON file, converts it into a GPX file and then uses `pymobiledevice3` to play that GPX route on a usb-connected iPhone.
+- [`pymobiledevice3`](https://github.com/doronz88/pymobiledevice3)
 
 It supports:
 - Line Routes, Timetabled Loops, Untimetabled Loops
