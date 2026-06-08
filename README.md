@@ -260,3 +260,7 @@ For `untimetabledLoop` routes:
 - `totalRunSeconds` is required
 - `totalRunSeconds` must be > 0
 - Every stop must include `driveSecondsToNextStop`
+
+## Todo
+- Verify usage on Windows
+- Implement unit tests
