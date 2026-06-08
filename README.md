@@ -264,3 +264,4 @@ For `untimetabledLoop` routes:
 ## Todo
 - Verify usage on Windows
 - Implement unit tests
+- Implement GPX validation tests
