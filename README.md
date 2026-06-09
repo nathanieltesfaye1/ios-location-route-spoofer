@@ -27,6 +27,7 @@ You need:
 - `pymobiledevice3`
 - A physical iPhone (with developer mode enabled)
 - iPhone connected to laptop via USB
+- (Windows only) iTunes to recognise iPhone
 - `pymobiledevice3` tunnel running
 - Mac or Windows
 
