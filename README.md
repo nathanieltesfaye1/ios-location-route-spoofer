@@ -264,5 +264,6 @@ For `untimetabledLoop` routes:
 
 ## Todo
 - Verify usage on Windows
+- Currently, the GPX file 'jumps' very rapidly between close-together coordinates. Is there a way to simulate true smooth, continuous motion in GPX files?
 - Implement unit tests
 - Implement GPX validation tests
