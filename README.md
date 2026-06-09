@@ -45,7 +45,7 @@ source .venv/bin/activate
 Install dependencies:
 ```
 python3 -m pip install -U pip
-python3 -m pip install -U pymobiledevice3
+python -m pip install -U pymobiledevice3
 ```
 ### Setup iPhone
 Connect iPhone to the laptop with a USB cable. Tap "trust this computer" on the iPhone if prompted. Enable developer mode too if not already enabled (you may need to restart the phone after doing this).
