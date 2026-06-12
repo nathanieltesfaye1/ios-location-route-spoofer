@@ -265,6 +265,7 @@ For `untimetabledLoop` routes:
 ## Todo
 - Verify usage on Windows
 - Currently, the GPX file 'jumps' very rapidly between close-together coordinates. Is there a way to simulate true smooth, continuous motion in GPX files?
+- Have a look into location accuracies. Spoofers can have varying location accuracies. See if there's a way that we can manipulation location accuracy as desired. Also, check the /by-phone-number request to check location accuracy that's been passed.
 - Introduce random location noise when paused at stops. It isn't realistic to consistently sending exactly the same coordinates while stationary.
 - Introduce random timing noise to when we record GPX locations. It isn't realistic to send all location points at exactly the same interval. Look into the command `pymobiledevice3 developer dvt simulate-location play route.gpx 500` from the [docs](https://github.com/doronz88/pymobiledevice3/blob/master/docs/guides/cli-recipes.md).
 - Implement unit tests
